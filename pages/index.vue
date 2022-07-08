@@ -1,26 +1,37 @@
 <template>
   <div>
     <section class="section">
-      <section>
-          <b-skeleton width="10%" :animated="animated"></b-skeleton>
-
-          <b-skeleton width="20%" :animated="animated"></b-skeleton>
-
-          <b-skeleton width="40%" :animated="animated"></b-skeleton>
-
-          <b-skeleton width="50%" :animated="animated"></b-skeleton>
-
-      </section>
+      <p class="title has-text-centered">Christian Santana</p>
+      <p class="subtitle has-text-centered">Desarrollador web</p>
+    </section>
+    <section class="section">
+      <p class="subtitle has-text-centered">Mis trabajos</p>
+      <div class="columns is-multiline">
+        <div class="column is-4">
+          <div class="notification is-twitter">Twitter</div>
+        </div>
+        <div class="column is-4">
+          <div class="notification is-red">Red</div>
+        </div>
+        <div class="column is-4">
+          <div class="notification is-primary">Primary</div>
+        </div>
+        <div class="column is-4">
+          <div class="notification is-danger">Danger</div>
+        </div>
+        <div class="column is-4">
+          <div class="notification is-warning">Warning</div>
+        </div>
+        <div class="column is-4">
+          <div class="notification is-dark">Dark</div>
+        </div>
+      </div>
     </section>
   </div>
 </template>
 
 <script>
 export default {
-  data() {
-      return {
-          animated: true
-      }
-  }
+  
 }
 </script>

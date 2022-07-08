@@ -12,9 +12,13 @@ $twitter: #4099FF;
 $twitter-light: findLightColor($twitter);
 $twitter-invert: findColorInvert($twitter);
 //secundary
-$secundary: red;
-$secundary-light: findLightColor($secundary);
-$secundary-invert: findColorInvert($secundary);
+$red: red;
+$red-light: findLightColor($red);
+$red-invert: findColorInvert($red);
+//blue
+$blue: blue;
+$blue-light: findLightColor($blue);
+$blue-invert: findColorInvert($blue);
 
 // Lists and maps
 $custom-colors: null !default;
@@ -77,13 +81,18 @@ $colors: mergeColorMaps(
         ),
         "twitter": (
             $twitter,
-            $twitter-light
-            $twitter-invert
+            $twitter-light,
+            $twitter-invert,
         ),
-        "secundary": (
-            $secundary,
-            $secundary-light,
-            $secundary-invert,
+        "red": (
+            $red,
+            $red-light,
+            $red-invert,
+        ),
+        'blue': (
+            $blue,
+            $blue-light,
+            $blue-invert,
         )
     ),
     $custom-colors
