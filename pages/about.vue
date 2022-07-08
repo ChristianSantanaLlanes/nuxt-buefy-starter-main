@@ -11,8 +11,10 @@
             </div>
         </section>
         <div class="container">
-        
-            <b-button type="is-primary" tag="router-link" to="/">Atras</b-button>
+            <div class="buttons">
+                <b-button type="is-warning" @click="confirmCustom">Ver dialogo</b-button>
+                <b-button type="is-primary" tag="router-link" to="/">Atras</b-button>
+            </div>
         </div>
     </div>
 </template>
