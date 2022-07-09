@@ -2,7 +2,7 @@
     <section class="section">
         <div class="columns is-centered">
             <div class="column is-8">
-                <b-image :src="item.foto" ratio="2by1"></b-image>
+                <b-image :src="item.foto" ratio="2by1" placeholder="https://ar.pinterest.com/pin/251638697914794219/"></b-image>
                 <div class="columns is-multiline">
                     <div class="column is-12">
                         <p class="title">{{item.name}}</p>
