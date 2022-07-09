@@ -14,6 +14,9 @@
         props: {
             item: {
                 type: Object,
+                default() {
+                    return { message: 'hello' }
+                },
                 require: true
             },
         },
