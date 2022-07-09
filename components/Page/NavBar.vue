@@ -3,7 +3,7 @@
         <template #brand>
             <b-navbar-item tag="router-link" :to="{ path: '/' }">
                 <img
-                    src="@/assets//imgs/personaje.jpg"
+                    src="@/assets/imgs/personaje.jpg"
                     alt="Logo de la empresa"
                 >
             </b-navbar-item>
