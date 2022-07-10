@@ -20,7 +20,7 @@ export default {
     data() {
         return {
             trabajos: [
-                { foto: "/product.png", name: "Producto 1", descripcion: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, eos autem! Eos, dolor, alias culpa ipsam earum repellat ipsum, fugit ab hic veritatis accusantium cupiditate atque magnam deleniti. Modi, molestias?' },
+                { foto: "/movieHero.png", name: "Producto 1", descripcion: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, eos autem! Eos, dolor, alias culpa ipsam earum repellat ipsum, fugit ab hic veritatis accusantium cupiditate atque magnam deleniti. Modi, molestias?' },
                 { foto: "/p1.png", name: "Producto 2", descripcion: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, eos autem! Eos, dolor, alias culpa ipsam earum repellat ipsum, fugit ab hic veritatis accusantium cupiditate atque magnam deleniti. Modi, molestias?' },
                 { foto: "/p2.png", name: "Producto 3", descripcion: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, eos autem! Eos, dolor, alias culpa ipsam earum repellat ipsum, fugit ab hic veritatis accusantium cupiditate atque magnam deleniti. Modi, molestias?' },
                 { foto: "/p3.png", name: "Producto 4", descripcion: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, eos autem! Eos, dolor, alias culpa ipsam earum repellat ipsum, fugit ab hic veritatis accusantium cupiditate atque magnam deleniti. Modi, molestias?' },
