@@ -102,6 +102,9 @@ $colors: mergeColorMaps(
 $link: $primary;
 $link-invert: $primary-invert;
 $link-focus-border: $primary;
+//Card
+$card-radius: 0.6rem;
+$card-content-background-color: #afb8c1;
 
 // Import Bulma and Buefy styles
 @import "~bulma";
